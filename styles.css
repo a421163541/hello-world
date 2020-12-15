@@ -1,17 +1,378 @@
-* {
-  margin:0px;
-  padding:0px;
+.el-link.el-link--primary  {
+    font-family:"等线"!important;
+    font-size:48px;
+    font-weight:600!important;
+    letter-spacing:0px;
+    1color:#573DD9 !important;
+    color:#3B58B8!important;
+    opacity:.9;
+}
+/* 标题字体*/
+.ui-comment .xt-comment-content {
+    font-size: 46px;
+     color: #20244f;
+    font-family:""!important;
+    font-weight:500;
+    opacity:.9;
+    1padding-left: 0px;
+    text-transform:uppercase;
+    letter-spacing:6px;
+    background: #cbd5f700;
+    user-select: none;
+}
+/* 评论字体*/
+ .ui-comment-title {
+    1background: #cbd5f7;
+    1background:#DADBC7;
+     font-size: 15px;
+    line-height: inherit;
+    line-height: 3;
+     1background-image: linear-gradient(to bottom right, #dfc590b8, #c3a58cc2);
+     background:#bddbb0;
+}
+/* 标题背景行高*/
+.ui-visual-multiple-template {
+    box-sizing: border-box;
+    background:#bddbb0;
+}/*审核界面边框 */
+.ui-comment-title:before {
+    content: "";
+    display:block;
+    width: 100%;
+    height:25%;
+    margin-left: 10%;
+    position: absolute;
+    border: 10px solid #00f0;
+    z-index:1000;
+}
+/* 标题链接遮挡*/
+.ui-visual-multiple-template .all-set {
+    background: #fff;
+    width: auto;
+    margin-left: 15%!important;
+    margin-top: -1.55%;
+}/* 全选*/
+ .ui-visual-template {
+    padding-left: 0.5%!important;
+    background: #cbd5f7;
+     background:#4fba31;
+
+}
+/* 审核界面*/
+ body, html {
+    background-color:#74777c !important;
+    border: none!important;
+    1background:url("http://pic.netbian.com/uploads/allimg/200802/224434-1596379474ebca.jpg") no-repeat center 0;
+	 background-size: cover;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+/* 网页背景*/
+.audit-header-wrapper {
+    background-color: #fff;
+}/* 神马信息流*/
+ .el-notification.right {
+    display:none;
+}
+/* 公告提示*/
+.el-col-22 {
+    width: 99%;
+    margin:5px 5px 50px 15px;
+    1padding-left: 400px;
+}
+/* 审核界面宽*/
+ .el-col-2 {
+    1background: #000000;
+}
+.ui-visual-template .keymap-wrap,.xt-visual-title {
+    display:none;
+}
+/* 快捷键提示*/
+ .el-col-14 {
+    width: 50%;
+    margin: -50px 0px 0px 0px;
+}
+/* 评论*/
+ .el-col-10 {
+    width: auto;
+    float: right;
+    opacity:0.8;
+}
+.el-col-10:hover {
+    opacity:1;
+}
+/* 昵称头像*/
+ .ui-comment .hd {
+    background-color: #0000;
+    border-bottom: 1px solid transparent;
+ line-height: 100px;
+}
+/* 评论背景色透明，行高*/
+ .ui-comment .comment-wrap {
+    border: none!important;
+    border: 1px solid #e0e0e0;
+    background: #0000;
+}
+/* 取消边框，评论背景色透明*/
+
+ .ui-visual-template .layout-ived-primary {
+    background-color: #d9eeff!important;          
+}
+/* 勾选背景色*/
+ .ui-visual-template .layout-actived-danger {
+    border: 4px solid #000000!important;
+ background-color: #bccde9!important;
+}
+/* 勾选背景色*/
+ .xt-nav,.topHeader {
+    opacity:0;
+}
+.xt-nav:hover,.topHeader:hover {
+    opacity:1;
+}
+/* 左侧边栏，上栏*/
+ .ui-visual-template .all-set {
+    display:none;
+}
+/* 全选*/
+ .ui-comment .ctrl {
+    opacity: 0.9;
+    width: 20;
+    1float: left;
+     user-select: none;
+}
+1.ui-comment .ctrl:hover {
+    opacity: 1;
+}
+/* 标题下一行*/
+ .ui-comment-label .tag {
+    display:inline!important;
+    color: #666;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+}
+/* 作者*/
+.el-button--danger.is-plain {
+   display:none;
+}/* 禁止昵称用户*/
+ .el-col-19 {
+    width:auto;
+}
+.ui-visual-template .single-layout {
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    border-radius: 0px;
+    margin: 0 0 1px;
+    padding: 0px;
+}
+.ui-comment .loop {
+    opacity: 0.6;
+    font-size:35px;
+    float: left;
+    1float: right;
+    1margin:-150px 0px 0px 100px;
+    margin-left: 56%;
+    margin-top: -5%;
+    width:1010px;
+    height:0px;
+    1display:none;
+    background: #c8d9f1; 
+}
+.ui-comment .loop:hover {
+    opacity:1;
+    font-size:38px;
+    width:28%;
+    float: right;
+    height:100%;
+    font-family:"等线"!important;
+    font-weight:500;
+     margin-top: -6%;
+}
+1.ui-comment .loop {
+    opacity:.2;
+    font-size:8px;
+     float: left;
+    height:0px;
+    1transition-duration: 0.3s;
+     margin-left: 56%; 
+     margin-top: -5%; 
+    1float: right;
+    1margin:-150px 0px 0px 100px;   
+    1width:1px; 
+}
+1.ui-comment .loop:hover {
+    background: #D4D6D9; 
+    opacity:1;
+    1width:50%;
+    height:1%;
+}
+/* 二级评论*/
+.ui-comment .bd {
+    margin: 0px;
+}
+/* 二级评论分隔线*/
+.ui-comment .info {
+    display: block;
+    font-size:6px;
+    margin-top: 3%; 
+    opacity:.3;
+}
+/* 二级评论昵称*/
+ .ui-comment .loop>.avatar {
+    float: right;
+    margin-top: 2%; 
+    width: 70px;
+    height: 70px;
+     opacity:.0;
+}
+/* 二级评论头像*/
+.ui-comment .date {
+    text-align: right;
+    font-size:6px;
+    opacity:.4;
+    user-select: none;
+}
+/* 二级评论时间*/
+.el-col-10 {
+    user-select: none;
+}/* 昵称禁止选中*/
+.content {
+   background-color: #c8d9f191; 
+    
+}/* 二级评论背景*/
+1 .ui-comment .content {
+    color: #000000;
+    font-family:"等线"!important;
+    font-size:36px;
+    font-weight:500;
+}
+/* 二级字体*/
+ .el-col-5 {
+    opacity:.0;
+    width:auto;
+    margin-left: 40%
+}
+/* 标题下一行二级*/
+[class*=" el-icon-"], [class^=el-icon-] {
+ position: absolute;
+ right:30px;
+}
+.el-link [class*=el-icon-]+span {
+    display:none;
+}/* 信息源链接*/
+ .el-tooltip__popper.is-dark, .el-tooltip__popper {
+    display:none;
+}
+/* 提示*/
+.audit-header-wrapper .audit-header { 
+    border-bottom: 0px solid #e6e6e6;
+}/* 已审行*/
+::-webkit-scrollbar {
+    width: 20px;
+    1height: 1px;
+}
+::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+    1border-radius: 20px;
+    1border: 3px solid #2E2E2E;
+}
+::-webkit-scrollbar-thumb {
+    1border-radius: 20px;
+    background-color: #000000;
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+/* 滚动条*/
+.ui-visual-multiple-template .layout-actived-danger:after {
+    background-color: #ff656500;
 }
+/* 勾选后左边条*/
+ .el-tag.el-tag--danger {
+    display:none;
+}
+.audit-header-wrapper {
+    opacity:1;
+}
+.ui-comment {
+    overflow: hidden;
+}
+/* 隐藏后面的二级评论*/
+.ui-visual-multiple-template .xt-multiple-case-wrap:before {
+    content: "";
+    position: absolute;
+    border: 10px solid #ec0a0a00;
+}
+.ui-visual-multiple-template .single-layout {
+    padding: 0px;
+    margin: 5px!important;
+}
+/* 间距，焦点框*/
+
+
+/* :after { content: "↗"; }
+*/
+.el-row:before{ counter-increment: chapter;
+    counter-reset:chapter0;
+1content: "" counter(chapter) "" ;
+}
+/* :before{
+   content: " " counter(chapter) "" ;
+      font-size:20px;
+}*/
+h1:after{
+   content: " " counter(chapter) "" ;
+      font-size:20px;
+}
+
+
+.ui-visual-multiple-template .keymap-wrap{
+    opacity:0;
+}
+
+.ui-visual-multiple-template .layout-actived-danger {
+    1background-color: #b4c9e7!important;
+    background-image: linear-gradient(to right, #7380df94 , #b55092c2);
+    1background-image: linear-gradient(to right, #67e3b894 , #e1c78ac2);
+}
+/* 选中颜色*/
+.el-loading-mask {
+    transition: opacity 0s;
+    }
+    .el-loading-spinner .circular {
+    height: 42px;
+    width: 42px;
+    -webkit-animation: loading-rotate 0s linear infinite;
+     animation: loading-rotate 0s linear infinite; 
+}
+/* 派单中*/
+.audit-header-left .items .el-icon-postcard {
+    cursor: pointer;
+    opacity:0;
+}
+/* 剩余*/
+
+.audit-header-wrapper,.ui-visual-multiple-template .all-set,.ui-visual-multiple-template,.el-loading-mask {
+    margin-left: 20%;
+}/* 审核界面左边距离*/
+
+.xt-container {
+    padding: 2px;
+    transition: all 0s ease;
+    border-top: 0px solid #e6e6e6;
+}/* 线*/
+
+.el-col-22:after { content: "██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████"; 
+font-size:50px;
+    position:absolute;
+    overflow: hidden;
+    width:100%;
+    margin:10px 0px 0px -50px;
+    letter-spacing:-10px;
+    color:#1b1f9e;
+}/*底线*/
+1.ui-comment .ctrl:before { content: "█████████████████████";
+     background-color: #fff0;
+    color: #fff;
+    right:0;
+    font-size:40px;
+    position:absolute;
+}
+/* 线*/
